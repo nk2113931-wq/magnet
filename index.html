@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnet - NIKHIL</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: linear-gradient(135deg, #0f172a, #1e1b4b); 
+            color: #f8fafc; 
+            min-height: 100vh; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            max-width: 500px;
+            width: 90%;
+        }
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #6366f1;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+        }
+        h1 { 
+            font-size: 2.2rem; 
+            margin-bottom: 10px; 
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p { 
+            font-size: 1.1rem; 
+            color: #94a3b8; 
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(to right, #6366f1, #4f46e5);
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(99, 102, 241, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- आपकी फोटो का नाम -->
+        <img src="my-pic.jpg" alt="My Profile Picture" class="profile-img">
+        
+        <!-- आपका नाम कैपिटल में -->
+        <h1>NIKHIL 🧲</h1>
+        
+        <!-- वेबसाइट का इंट्रो अब इंग्लिश में है -->
+        <p>Hello! Welcome to my first personal website built from scratch. I am an aspiring web developer learning to create modern digital experiences.</p>
+        
+        <a href="mailto:your-email@example.com" class="btn">Connect With Me</a>
+    </div>
+
+</body>
+</html>
